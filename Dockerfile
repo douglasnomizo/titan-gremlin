@@ -1,8 +1,8 @@
 FROM java:latest
 
-MAINTAINER Eric Lubow <eric@lubow.org>
+MAINTAINER David Brown <davebshow@gmail.com>
 
-LABEL Description="Titan Graph DB with Gremlin to be used with Cassandra and Elasticsearch" Version="1.0" Tags="cassandra,elasticsearch,graph,gremlin,titan"
+LABEL Description="Fork of @elubow's repo that uses sockets and sasl" Version="1.0" Tags="cassandra,elasticsearch,graph,gremlin,titan"
 
 WORKDIR /opt/titan-1.0.0-hadoop1
 
