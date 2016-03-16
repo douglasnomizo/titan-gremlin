@@ -1,8 +1,8 @@
 FROM java:latest
 
-MAINTAINER David Brown <davebshow@gmail.com>
+MAINTAINER Douglas Nomizo <douglasnomizo@outlook.com>
 
-LABEL Description="Fork of @elubow's repo that uses sockets and sasl" Version="1.0" Tags="cassandra,elasticsearch,graph,gremlin,titan"
+LABEL Description="Fork of @davebshow's repo that uses sockets" Version="1.0" Tags="cassandra,elasticsearch,graph,gremlin,websockets,titan"
 
 WORKDIR /opt/titan-1.0.0-hadoop1
 

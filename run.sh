@@ -56,4 +56,4 @@ echo "gremlin.graph=com.thinkaurelius.titan.core.TitanFactory
 storage.backend=cassandra
 storage.hostname=$CASSANDRA_PORT_9160_TCP_ADDR" > conf/gremlin-server/titan-cassandra-server.properties
 
-$BIN/gremlin-server.sh conf/gremlin-server/gremlin-server-secure.yaml
+$BIN/gremlin-server.sh conf/gremlin-server/gremlin-server-modern.yaml
